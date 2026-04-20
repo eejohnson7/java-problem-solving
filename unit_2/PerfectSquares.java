@@ -50,18 +50,4 @@ public class PerfectSquares {
         
         return numDivisors;
     }
-    
-    private boolean isEven(int square) {
-        if (square % 2 == 0) {
-            return true;
-        }
-        return false;
-    }
-    
-    private boolean isDivisor(int square, int num) {
-        if (square % num == 0) {
-            return true;
-        }
-        return false;
-    }
 }
